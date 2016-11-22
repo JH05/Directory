@@ -44,7 +44,7 @@ namespace Directory
                         saveFile.WriteLine(stringLine);
                         stringLine = String.Empty;
                     }
-                    //
+                    
                     saveFile.Close();
                     MessageBox.Show("Successfully Saved File", "Save Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
